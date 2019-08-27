@@ -3,10 +3,7 @@ package com.company.Tree.BST4;
 import com.company.Tree.TreeNode;
 import sun.reflect.generics.tree.Tree;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * 寻找二叉查找树中出现次数最多的值
@@ -62,4 +59,5 @@ public class P10_501 {
             inOrder(node.right, nums);
         }
     }
+
 }
